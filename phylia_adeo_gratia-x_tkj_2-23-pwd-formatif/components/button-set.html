@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Set</title>
+    <style>
+        /* Body */
+        body {
+            background-color: ghostwhite;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Header */
+        h2 {
+            color: #25395c;
+            font-size: 20px;
+        }
+
+        /* Tombol */
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .button-group, .btn {
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        /* Warna Tombol */
+        .btn-primary {
+            background-color: #25395c;
+            color: white;
+        }
+
+        .btn-secondary {
+            background-color: rgb(223, 229, 241);
+            color: rgb(37, 57, 92);
+        }
+
+        .btn-outline {
+            background-color: white;
+            outline: 2px solid #25395c;
+        }
+
+        .btn-send {
+            background-color: rgba(228, 145, 65, 1);
+            color: rgba(255, 255, 255, 1);
+        }
+
+        .btn-secondary, .btn-outline {
+            color: #25395c;
+        }
+
+        /* Animasi Tombol*/
+        .btn-primary:hover, .btn-secondary:hover, .btn-outline:hover, .btn-send:hover {
+            filter: brightness(0.9)
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <!-- Header -->
+        <h2>Kumpulan Tombol</h2>
+        <!-- Tombol -->
+         <div class="button-group">
+            <a href="#"; class="btn btn-primary">Lihat Proyek</a>
+            <a href="#"; class="btn btn-secondary">Unduh CV</a>
+            <a href="#"; class="btn btn-outline">Hubungi Saya</a>
+            <a href="#"; class="btn btn-send">Kirim Pesan</a>
+         </div>
+    </main>
+
+    <footer style="text-align: center; padding: 20px;">
+        <a href="">Kembali ke Beranda</a>
+    </footer>
+</body>
+</html>
