@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card with Badge</title>
+    <style>
+        body {
+            background-color: ghostwhite;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        #top {
+            padding: 20px;
+            background-color: #1e3a5f;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .card {
+            position: relative;
+            width: 360px;
+            margin: 30px auto;
+            border: 2px solid #ecedf1;
+            border-radius: 10px;
+            background-color: white;
+            color: #25395c;
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .card p, h3 {
+            padding: 0 20px;
+            width: auto;
+        }
+
+        .card .badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #f18a2f;
+            color: white;
+            border-radius: 15px;
+            padding: 8px 12px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .back-to-top {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            background-color: #25395c;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            z-index: 10;
+        }
+
+        .back-to-top:hover {
+            background-color: #f18a2f;
+        }
+
+        main p {
+            width: 360px;
+            margin: 20px auto;
+            text-align: justify;
+            
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header id="top">Proyek Saya</header>
+    <main>
+        <div class="card">
+            <img src="/phylia_adeo_gratia-x_tkj_2-23-pwd-formatif/assets/images/Background6.png" alt="Gambar Proyek">
+            <span class="badge">BARU</span>
+            <h3>Aplikasi Catatan Harian</h3>
+            <p>Proyek terbaru saya: halaman pencatat kegiatan harian dengan tampilan sederhana. Dibuat menggunakan HTML dan CSS.</p>
+        </div>
+
+        <!-- Paragraf -->
+        <p>Paragraf pengisi 1. Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Paragraf pengisi 2. Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Paragraf pengisi 3. Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Paragraf pengisi 4. Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Paragraf pengisi 5. Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Paragraf pengisi 6. Bagian ini sengaja dibuat panjang agar halaman bisa digulir dan tombol "Ke Atas" terlihat tetap berada di pojok layar. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </main>
+
+    <footer>
+        <a href="">Kembali ke Beranda</a>
+    </footer>
+
+    <!-- Tombol Ke Atas -->
+        <a href="#top"; class="back-to-top">↑ Ke Atas</a>
+</body>
+</html>
