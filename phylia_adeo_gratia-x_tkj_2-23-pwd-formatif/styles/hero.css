@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("/phylia_adeo_gratia-x_tkj_2-23-pwd-formatif/assets/fonts/Poppins-Bold.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+}
+
+/* Hero */
+#hero {
+    height: 400px;
+    background-image: url(/phylia_adeo_gratia-x_tkj_2-23-pwd-formatif/assets/images/FFXHYpsXMAE0ay2.jpg);
+    background-position: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    width: 640px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px;
+}
+
+.hero-content h1, .hero-content p {
+    animation-name: slide-up;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.3s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: backwards;
+}
+
+.hero-content p {
+    animation-delay: 0.6s;
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translateY(60px);
+        opacity: 0;
+    }
+    25% {
+        transform: translateY(40px);
+        opacity: 0.25;
+    }
+    50% {
+        transform: translateY(20px);
+        opacity: 0.5;
+    }
+    75% {
+        transform: translateY(8px);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+/* Heading */
+h1 {
+    font-family: "Poppins-Bold", sans-serif;
+}
+
+/* Tombol */
+.btn {
+    padding: 12px 24px;
+    background-color: #e49141;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+}
