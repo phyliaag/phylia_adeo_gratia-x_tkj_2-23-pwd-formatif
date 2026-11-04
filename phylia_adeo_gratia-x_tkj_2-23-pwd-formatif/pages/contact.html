@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<style>
+    body {
+        background-color: ghostwhite;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+    }
+
+    #contact {
+        padding: 40px 20px;
+    }
+
+    .contact-form {
+        background-color: white;
+        width: 400px;
+        padding: 24px;
+        margin: auto;
+        border: 1px solid #25395c;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+    .contact-form h2 {
+        text-align: center;
+        color: #25395c;
+    }
+
+    .form-group {
+        margin-bottom: 16px;
+    }
+
+    .form-group label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 6px;
+    }
+
+    .form-group input, .form-group textarea {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        border: 1px solid #a2a2a2;
+        border-radius: 5px;
+        resize: vertical;
+    }
+
+    .form-group input:focus, .form-group textarea:focus {
+        outline: none;
+        border-color: #25395c;
+        background-color: #dee6f1;
+    }
+
+    .btn-submit {
+        background-color: #25395c;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        padding: 12px;
+    }
+
+    .btn-submit:hover {
+        background-color: #3b5a90;
+    }
+
+    footer {
+        text-align: center;
+    }
+</style>
+<body>
+    <section id="contact">
+        <form action="" class="contact-form">
+            <h2>Hubungi Saya</h2>
+            <!-- Nama -->
+            <div class="form-group">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama">
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+
+            <!-- Pesan -->
+            <div class="form-group">
+                <label for="pesan">Pesan</label>
+                <textarea name="pesan" id="pesan"></textarea>
+            </div>
+
+            <!-- Tombol Submit -->
+            <button class="btn-submit">Kirim Pesan</button>
+        </form>
+    </section>
+
+    <footer>
+        <a href="">Kembali ke Beranda</a>
+    </footer>
+</body>
+</html>
