@@ -1,0 +1,50 @@
+/* Font */
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url("/phylia_adeo_gratia-x_tkj_2-23-pwd-formatif/assets/fonts/OpenSans-Regular.ttf") format(truetype);
+    font-family: "Poppins-Bold";
+    src: url("/phylia_adeo_gratia-x_tkj_2-23-pwd-formatif/assets/fonts/Poppins-Bold.ttf") format("truetype");
+}
+
+body {
+    font-family: "OpenSans-Regular", sans-serif;
+}
+
+/* Latar */
+#about {
+    background-image: url("/phylia_adeo_gratia-x_tkj_2-23-pwd-formatif/assets/images/wp2041479-over-the-garden-wall-wallpapers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+    margin: auto;
+
+}
+
+.about-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 620px;
+    margin: auto; 
+    padding: 15px 30px;
+    border-radius: 10px; 
+    box-sizing: border-box;
+}
+
+/* Teks */
+.about-box h2 {
+    font-family: "Poppins-Bold", sans-serif;
+    text-align: center;
+    color: #25395c;
+}
+
+.about-box p {
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.about-box .closing {
+    text-align: right;
+    font-style: italic;
+    color: sandybrown;
+    font-weight: bold;
+}
